@@ -1,0 +1,14 @@
+May 05 23:03:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 05 23:03:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 05 23:03:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 05 23:03:07 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 05 23:03:07 symfony [info] {sfPHPView} Render "/Users/amdayton/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 05 23:03:07 symfony [info] {sfPHPView} Decorate content with "/Users/amdayton/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 05 23:03:07 symfony [info] {sfPHPView} Render "/Users/amdayton/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 05 23:03:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 05 23:03:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 05 23:03:07 symfony [info] {sfWebDebugLogger} Configuration 132.81 ms (9)
+May 05 23:03:07 symfony [info] {sfWebDebugLogger} Factories 132.46 ms (1)
+May 05 23:03:07 symfony [info] {sfWebDebugLogger} Action "default/index" 0.17 ms (1)
+May 05 23:03:07 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 17.78 ms (1)
+May 05 23:03:07 symfony [info] {sfWebResponse} Send content (29077 o)

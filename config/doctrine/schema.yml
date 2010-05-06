@@ -1,0 +1,3 @@
+Word:
+  columns:
+    name: { type: string(255), notnull: true }
