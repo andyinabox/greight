@@ -12,3 +12,966 @@ May 05 23:03:07 symfony [info] {sfWebDebugLogger} Factories 132.46 ms (1)
 May 05 23:03:07 symfony [info] {sfWebDebugLogger} Action "default/index" 0.17 ms (1)
 May 05 23:03:07 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 17.78 ms (1)
 May 05 23:03:07 symfony [info] {sfWebResponse} Send content (29077 o)
+May 06 00:29:16 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 06 00:29:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:29:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:29:16 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 06 00:29:16 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 06 00:29:16 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:29:16 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:29:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 06 00:29:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 06 00:29:16 symfony [info] {sfWebDebugLogger} Configuration 190.56 ms (9)
+May 06 00:29:16 symfony [info] {sfWebDebugLogger} Factories 190.02 ms (1)
+May 06 00:29:16 symfony [info] {sfWebDebugLogger} Action "default/index" 0.25 ms (1)
+May 06 00:29:16 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 52.43 ms (1)
+May 06 00:29:16 symfony [info] {sfWebResponse} Send content (28289 o)
+May 06 00:35:32 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 06 00:35:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:35:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:35:32 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 06 00:35:32 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 06 00:35:32 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:35:32 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:35:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 06 00:35:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 06 00:35:32 symfony [info] {sfWebDebugLogger} Configuration 160.62 ms (9)
+May 06 00:35:32 symfony [info] {sfWebDebugLogger} Factories 150.83 ms (1)
+May 06 00:35:32 symfony [info] {sfWebDebugLogger} Action "default/index" 0.20 ms (1)
+May 06 00:35:32 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 23.99 ms (1)
+May 06 00:35:32 symfony [info] {sfWebResponse} Send content (28548 o)
+May 06 00:35:49 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /words with parameters array (  'module' => 'words',  'action' => 'index',)
+May 06 00:35:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:35:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:35:49 symfony [info] {wordsActions} Call "wordsActions->executeIndex()"
+May 06 00:35:49 symfony [info] {wordsActions} Forward to action "default/module"
+May 06 00:35:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:35:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:35:49 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+May 06 00:35:49 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/moduleSuccess.php"
+May 06 00:35:49 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:35:49 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:35:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 06 00:35:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 06 00:35:49 symfony [info] {sfWebDebugLogger} Configuration 28.35 ms (13)
+May 06 00:35:49 symfony [info] {sfWebDebugLogger} Factories 51.17 ms (1)
+May 06 00:35:49 symfony [info] {sfWebDebugLogger} Action "words/index" 32.26 ms (1)
+May 06 00:35:49 symfony [info] {sfWebDebugLogger} Action "default/module" 0.17 ms (1)
+May 06 00:35:49 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 26.82 ms (1)
+May 06 00:35:49 symfony [info] {sfWebResponse} Send content (30530 o)
+May 06 00:36:23 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /words with parameters array (  'module' => 'words',  'action' => 'index',)
+May 06 00:36:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:36:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:36:23 symfony [info] {wordsActions} Call "wordsActions->executeIndex()"
+May 06 00:36:23 symfony [info] {wordsActions} Forward to action "default/module"
+May 06 00:36:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:36:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:36:23 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+May 06 00:36:23 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/moduleSuccess.php"
+May 06 00:36:23 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:36:23 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:36:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 06 00:36:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 06 00:36:23 symfony [info] {sfWebDebugLogger} Configuration 178.50 ms (12)
+May 06 00:36:23 symfony [info] {sfWebDebugLogger} Factories 149.51 ms (1)
+May 06 00:36:23 symfony [info] {sfWebDebugLogger} Action "words/index" 45.79 ms (1)
+May 06 00:36:23 symfony [info] {sfWebDebugLogger} Action "default/module" 0.25 ms (1)
+May 06 00:36:23 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 24.11 ms (1)
+May 06 00:36:23 symfony [info] {sfWebResponse} Send content (30563 o)
+May 06 00:36:26 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /words with parameters array (  'module' => 'words',  'action' => 'index',)
+May 06 00:36:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:36:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:36:26 symfony [info] {wordsActions} Call "wordsActions->executeIndex()"
+May 06 00:36:26 symfony [info] {wordsActions} Forward to action "default/module"
+May 06 00:36:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:36:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:36:26 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+May 06 00:36:26 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/moduleSuccess.php"
+May 06 00:36:26 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:36:26 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:36:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 06 00:36:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 06 00:36:26 symfony [info] {sfWebDebugLogger} Configuration 2.48 ms (12)
+May 06 00:36:26 symfony [info] {sfWebDebugLogger} Factories 46.82 ms (1)
+May 06 00:36:26 symfony [info] {sfWebDebugLogger} Action "words/index" 21.42 ms (1)
+May 06 00:36:26 symfony [info] {sfWebDebugLogger} Action "default/module" 0.19 ms (1)
+May 06 00:36:26 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 16.35 ms (1)
+May 06 00:36:26 symfony [info] {sfWebResponse} Send content (30560 o)
+May 06 00:36:30 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/index with parameters array (  'module' => 'words',  'action' => 'index',)
+May 06 00:36:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:36:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:36:30 symfony [info] {wordsActions} Call "wordsActions->executeIndex()"
+May 06 00:36:30 symfony [info] {wordsActions} Forward to action "default/module"
+May 06 00:36:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:36:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:36:30 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+May 06 00:36:30 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/moduleSuccess.php"
+May 06 00:36:30 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:36:30 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:36:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 06 00:36:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 06 00:36:30 symfony [info] {sfWebDebugLogger} Configuration 2.36 ms (12)
+May 06 00:36:30 symfony [info] {sfWebDebugLogger} Factories 46.84 ms (1)
+May 06 00:36:30 symfony [info] {sfWebDebugLogger} Action "words/index" 22.00 ms (1)
+May 06 00:36:30 symfony [info] {sfWebDebugLogger} Action "default/module" 0.18 ms (1)
+May 06 00:36:30 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 16.48 ms (1)
+May 06 00:36:30 symfony [info] {sfWebResponse} Send content (30562 o)
+May 06 00:37:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/index with parameters array (  'module' => 'words',  'action' => 'index',)
+May 06 00:37:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:37:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:37:17 symfony [info] {wordsActions} Call "wordsActions->executeIndex()"
+May 06 00:37:17 symfony [info] {wordsActions} Forward to action "default/module"
+May 06 00:37:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:37:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:37:17 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+May 06 00:37:17 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/moduleSuccess.php"
+May 06 00:37:17 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:37:17 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:37:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 06 00:37:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 06 00:37:17 symfony [info] {sfWebDebugLogger} Configuration 2.57 ms (12)
+May 06 00:37:17 symfony [info] {sfWebDebugLogger} Factories 44.54 ms (1)
+May 06 00:37:17 symfony [info] {sfWebDebugLogger} Action "words/index" 23.72 ms (1)
+May 06 00:37:17 symfony [info] {sfWebDebugLogger} Action "default/module" 0.33 ms (1)
+May 06 00:37:17 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 17.72 ms (1)
+May 06 00:37:17 symfony [info] {sfWebResponse} Send content (30594 o)
+May 06 00:37:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/index with parameters array (  'module' => 'words',  'action' => 'index',)
+May 06 00:37:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:37:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:37:19 symfony [info] {wordsActions} Call "wordsActions->executeIndex()"
+May 06 00:37:19 symfony [info] {wordsActions} Forward to action "default/module"
+May 06 00:37:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:37:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:37:19 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+May 06 00:37:19 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/moduleSuccess.php"
+May 06 00:37:19 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:37:19 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:37:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 06 00:37:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 06 00:37:19 symfony [info] {sfWebDebugLogger} Configuration 2.36 ms (12)
+May 06 00:37:19 symfony [info] {sfWebDebugLogger} Factories 46.12 ms (1)
+May 06 00:37:19 symfony [info] {sfWebDebugLogger} Action "words/index" 22.03 ms (1)
+May 06 00:37:19 symfony [info] {sfWebDebugLogger} Action "default/module" 0.18 ms (1)
+May 06 00:37:19 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 16.64 ms (1)
+May 06 00:37:19 symfony [info] {sfWebResponse} Send content (30594 o)
+May 06 00:37:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/index with parameters array (  'module' => 'words',  'action' => 'index',)
+May 06 00:37:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:37:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:37:26 symfony [info] {wordsActions} Call "wordsActions->executeIndex()"
+May 06 00:37:26 symfony [info] {wordsActions} Forward to action "default/module"
+May 06 00:37:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:37:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:37:26 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+May 06 00:37:26 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/moduleSuccess.php"
+May 06 00:37:26 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:37:26 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:37:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 06 00:37:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 06 00:37:26 symfony [info] {sfWebDebugLogger} Configuration 183.25 ms (12)
+May 06 00:37:26 symfony [info] {sfWebDebugLogger} Factories 151.04 ms (1)
+May 06 00:37:26 symfony [info] {sfWebDebugLogger} Action "words/index" 49.69 ms (1)
+May 06 00:37:26 symfony [info] {sfWebDebugLogger} Action "default/module" 0.39 ms (1)
+May 06 00:37:26 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 26.27 ms (1)
+May 06 00:37:26 symfony [info] {sfWebResponse} Send content (30597 o)
+May 06 00:37:30 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/words/" (/).
+May 06 00:37:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+May 06 00:37:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 06 00:37:30 symfony [info] {sfWebDebugLogger} Configuration 1.22 ms (5)
+May 06 00:37:30 symfony [info] {sfWebDebugLogger} Factories 46.81 ms (1)
+May 06 00:37:33 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /words with parameters array (  'module' => 'words',  'action' => 'index',)
+May 06 00:37:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:37:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:37:33 symfony [info] {wordsActions} Call "wordsActions->executeIndex()"
+May 06 00:37:33 symfony [info] {wordsActions} Forward to action "default/module"
+May 06 00:37:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:37:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:37:33 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+May 06 00:37:33 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/moduleSuccess.php"
+May 06 00:37:33 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:37:33 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 00:37:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 06 00:37:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 06 00:37:33 symfony [info] {sfWebDebugLogger} Configuration 2.27 ms (12)
+May 06 00:37:33 symfony [info] {sfWebDebugLogger} Factories 46.25 ms (1)
+May 06 00:37:33 symfony [info] {sfWebDebugLogger} Action "words/index" 21.80 ms (1)
+May 06 00:37:33 symfony [info] {sfWebDebugLogger} Action "default/module" 0.24 ms (1)
+May 06 00:37:33 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 16.26 ms (1)
+May 06 00:37:33 symfony [info] {sfWebResponse} Send content (30528 o)
+May 06 00:37:54 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /words with parameters array (  'module' => 'words',  'action' => 'index',)
+May 06 00:37:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:37:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:37:54 symfony [info] {wordsActions} Call "wordsActions->executeIndex()"
+May 06 00:37:54 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/indexSuccess.php"
+May 06 00:37:54 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 06 00:37:54 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 06 00:37:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 06 00:37:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 06 00:37:54 symfony [info] {sfWebDebugLogger} Configuration 21.42 ms (10)
+May 06 00:37:54 symfony [info] {sfWebDebugLogger} Factories 46.68 ms (1)
+May 06 00:37:54 symfony [info] {sfWebDebugLogger} Action "words/index" 0.22 ms (1)
+May 06 00:37:54 symfony [info] {sfWebDebugLogger} View "Success" for "words/index" 39.58 ms (1)
+May 06 00:37:54 symfony [info] {sfWebResponse} Send content (26901 o)
+May 06 00:38:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/view with parameters array (  'module' => 'words',  'action' => 'view',)
+May 06 00:38:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:38:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:38:53 symfony [info] {wordsActions} Call "wordsActions->executeView()"
+May 06 00:38:53 symfony [err] {sfRenderException} The template "viewSuccess.php" does not exist or is unreadable in "".
+May 06 00:38:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+May 06 00:38:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 06 00:38:53 symfony [info] {sfWebDebugLogger} Configuration 160.52 ms (9)
+May 06 00:38:53 symfony [info] {sfWebDebugLogger} Factories 135.50 ms (1)
+May 06 00:38:53 symfony [info] {sfWebDebugLogger} Action "words/view" 0.20 ms (1)
+May 06 00:38:53 symfony [info] {sfWebDebugLogger} View "Success" for "words/view" 50.78 ms (1)
+May 06 00:39:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/view with parameters array (  'module' => 'words',  'action' => 'view',)
+May 06 00:39:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 00:39:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 00:39:31 symfony [info] {wordsActions} Call "wordsActions->executeView()"
+May 06 00:39:31 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/viewSuccess.php"
+May 06 00:39:31 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 06 00:39:31 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 06 00:39:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 06 00:39:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 06 00:39:31 symfony [info] {sfWebDebugLogger} Configuration 2.02 ms (9)
+May 06 00:39:31 symfony [info] {sfWebDebugLogger} Factories 46.84 ms (1)
+May 06 00:39:31 symfony [info] {sfWebDebugLogger} Action "words/view" 0.18 ms (1)
+May 06 00:39:31 symfony [info] {sfWebDebugLogger} View "Success" for "words/view" 16.18 ms (1)
+May 06 00:39:31 symfony [info] {sfWebResponse} Send content (26920 o)
+May 06 16:18:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /words with parameters array (  'module' => 'words',  'action' => 'index',)
+May 06 16:18:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 16:18:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 16:18:40 symfony [info] {wordsActions} Call "wordsActions->executeIndex()"
+May 06 16:18:40 symfony [info] {wordsActions} Forward to action "default/module"
+May 06 16:18:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 16:18:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 16:18:40 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+May 06 16:18:40 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/moduleSuccess.php"
+May 06 16:18:40 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 16:18:40 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 16:18:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 06 16:18:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 06 16:18:40 symfony [info] {sfWebDebugLogger} Configuration 171.06 ms (12)
+May 06 16:18:40 symfony [info] {sfWebDebugLogger} Factories 182.64 ms (1)
+May 06 16:18:40 symfony [info] {sfWebDebugLogger} Action "words/index" 40.38 ms (1)
+May 06 16:18:40 symfony [info] {sfWebDebugLogger} Action "default/module" 0.20 ms (1)
+May 06 16:18:40 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 22.29 ms (1)
+May 06 16:18:40 symfony [info] {sfWebResponse} Send content (30531 o)
+May 06 16:18:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/view with parameters array (  'module' => 'words',  'action' => 'view',)
+May 06 16:18:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 16:18:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 16:18:43 symfony [info] {wordsActions} Call "wordsActions->executeView()"
+May 06 16:18:43 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/viewSuccess.php"
+May 06 16:18:43 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 06 16:18:43 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 06 16:18:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 06 16:18:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 06 16:18:43 symfony [info] {sfWebDebugLogger} Configuration 18.87 ms (10)
+May 06 16:18:43 symfony [info] {sfWebDebugLogger} Factories 41.69 ms (1)
+May 06 16:18:43 symfony [info] {sfWebDebugLogger} Action "words/view" 0.17 ms (1)
+May 06 16:18:43 symfony [info] {sfWebDebugLogger} View "Success" for "words/view" 60.60 ms (1)
+May 06 16:18:43 symfony [info] {sfWebResponse} Send content (26892 o)
+May 06 16:18:49 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 06 16:18:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 06 16:18:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 06 16:18:49 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 06 16:18:49 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+May 06 16:18:49 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 16:18:49 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+May 06 16:18:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 06 16:18:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 06 16:18:49 symfony [info] {sfWebDebugLogger} Configuration 1.78 ms (9)
+May 06 16:18:49 symfony [info] {sfWebDebugLogger} Factories 41.81 ms (1)
+May 06 16:18:49 symfony [info] {sfWebDebugLogger} Action "default/index" 0.17 ms (1)
+May 06 16:18:49 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 14.81 ms (1)
+May 06 16:18:49 symfony [info] {sfWebResponse} Send content (28614 o)
+May 08 12:01:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnikTest with parameters array (  'module' => 'words',  'action' => 'wordnikTest',)
+May 08 12:01:50 symfony [info] {myUser} Automatic user logout due to timeout
+May 08 12:01:50 symfony [info] {myUser} User is not authenticated
+May 08 12:01:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:01:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:01:50 symfony [info] {wordsActions} Call "wordsActions->executeWordnikTest()"
+May 08 12:02:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnikTest with parameters array (  'module' => 'words',  'action' => 'wordnikTest',)
+May 08 12:02:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:02:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:02:44 symfony [info] {wordsActions} Call "wordsActions->executeWordnikTest()"
+May 08 12:02:44 symfony [notice] {sfWebDebugLogger}  Notice at /Users/jmw/Sites/greight/plugins/sfWordnikPlugin/lib/Wordnik/Wordnik.php on line 67 (Undefined variable: api_key)
+May 08 12:02:44 symfony [warning] {sfWebDebugLogger}  Warning at /Users/jmw/Sites/greight/lib/vendor/symfony/lib/exception/sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at /Users/jmw/Sites/greight/plugins/sfWordnikPlugin/lib/Wordnik/Wordnik.php:67))
+May 08 12:02:44 symfony [err] {Exception} Can't connect to the api: /word.json/test/definitions response code: 401
+May 08 12:02:44 symfony [warning] {sfWebDebugLogger}  Warning at /Users/jmw/Sites/greight/lib/vendor/symfony/lib/exception/sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at /Users/jmw/Sites/greight/plugins/sfWordnikPlugin/lib/Wordnik/Wordnik.php:67))
+May 08 12:02:44 symfony [warning] {sfWebDebugLogger}  Warning at /Users/jmw/Sites/greight/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /Users/jmw/Sites/greight/plugins/sfWordnikPlugin/lib/Wordnik/Wordnik.php:67))
+May 08 12:02:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+May 08 12:02:44 symfony [warning] {sfWebDebugLogger}  Warning at /Users/jmw/Sites/greight/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/jmw/Sites/greight/plugins/sfWordnikPlugin/lib/Wordnik/Wordnik.php:67))
+May 08 12:02:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:02:44 symfony [info] {sfWebDebugLogger} Configuration 1.86 ms (8)
+May 08 12:02:44 symfony [info] {sfWebDebugLogger} Factories 42.35 ms (1)
+May 08 12:02:44 symfony [info] {sfWebDebugLogger} Action "words/wordnikTest" 365.92 ms (1)
+May 08 12:03:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnikTest with parameters array (  'module' => 'words',  'action' => 'wordnikTest',)
+May 08 12:03:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:03:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:03:05 symfony [info] {wordsActions} Call "wordsActions->executeWordnikTest()"
+May 08 12:03:05 symfony [err] {Exception} Can't connect to the api: /word.json/test/definitions response code: 401
+May 08 12:03:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+May 08 12:03:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:03:05 symfony [info] {sfWebDebugLogger} Configuration 1.77 ms (8)
+May 08 12:03:05 symfony [info] {sfWebDebugLogger} Factories 43.46 ms (1)
+May 08 12:03:05 symfony [info] {sfWebDebugLogger} Action "words/wordnikTest" 153.03 ms (1)
+May 08 12:27:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnikTest with parameters array (  'module' => 'words',  'action' => 'wordnikTest',)
+May 08 12:27:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:27:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:27:02 symfony [info] {wordsActions} Call "wordsActions->executeWordnikTest()"
+May 08 12:27:30 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnikTest with parameters array (  'module' => 'words',  'action' => 'wordnikTest',)
+May 08 12:27:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:27:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:27:30 symfony [info] {wordsActions} Call "wordsActions->executeWordnikTest()"
+May 08 12:27:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnikTest with parameters array (  'module' => 'words',  'action' => 'wordnikTest',)
+May 08 12:27:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:27:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:27:34 symfony [info] {wordsActions} Call "wordsActions->executeWordnikTest()"
+May 08 12:27:52 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnikTest with parameters array (  'module' => 'words',  'action' => 'wordnikTest',)
+May 08 12:27:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:27:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:27:52 symfony [info] {wordsActions} Call "wordsActions->executeWordnikTest()"
+May 08 12:28:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnikTest with parameters array (  'module' => 'words',  'action' => 'wordnikTest',)
+May 08 12:28:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:28:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:28:19 symfony [info] {wordsActions} Call "wordsActions->executeWordnikTest()"
+May 08 12:28:25 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnikTest with parameters array (  'module' => 'words',  'action' => 'wordnikTest',)
+May 08 12:28:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:28:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:28:25 symfony [info] {wordsActions} Call "wordsActions->executeWordnikTest()"
+May 08 12:28:25 symfony [err] {sfWebDebugLogger}  Error at /Users/jmw/Sites/greight/plugins/sfWordnikPlugin/lib/Wordnik/Wordnik.php on line 139 (Argument 1 passed to Wordnik::setApiKey() must be an instance of String, string given, called in /Users/jmw/Sites/greight/apps/frontend/modules/words/actions/actions.class.php on line 31 and defined)
+May 08 12:29:07 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnikTest with parameters array (  'module' => 'words',  'action' => 'wordnikTest',)
+May 08 12:29:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:29:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:29:07 symfony [info] {wordsActions} Call "wordsActions->executeWordnikTest()"
+May 08 12:29:07 symfony [err] {sfWebDebugLogger}  Error at /Users/jmw/Sites/greight/plugins/sfWordnikPlugin/lib/Wordnik/Wordnik.php on line 35 (Argument 1 passed to Wordnik::getDefinitions() must be an instance of String, string given, called in /Users/jmw/Sites/greight/apps/frontend/modules/words/actions/actions.class.php on line 33 and defined)
+May 08 12:30:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnikTest with parameters array (  'module' => 'words',  'action' => 'wordnikTest',)
+May 08 12:30:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:30:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:30:01 symfony [info] {wordsActions} Call "wordsActions->executeWordnikTest()"
+May 08 12:30:01 symfony [err] {sfWebDebugLogger}  Error at /Users/jmw/Sites/greight/plugins/sfWordnikPlugin/lib/Wordnik/Wordnik.php on line 139 (Argument 1 passed to Wordnik::setApiKey() must be an instance of string, string given, called in /Users/jmw/Sites/greight/apps/frontend/modules/words/actions/actions.class.php on line 31 and defined)
+May 08 12:30:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnikTest with parameters array (  'module' => 'words',  'action' => 'wordnikTest',)
+May 08 12:30:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:30:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:30:39 symfony [info] {wordsActions} Call "wordsActions->executeWordnikTest()"
+May 08 12:30:39 symfony [err] {Exception} Can't connect to the api: /word.json/test/definitions/ response code: 401
+May 08 12:30:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+May 08 12:30:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:30:39 symfony [info] {sfWebDebugLogger} Configuration 1.68 ms (8)
+May 08 12:30:39 symfony [info] {sfWebDebugLogger} Factories 42.55 ms (1)
+May 08 12:30:39 symfony [info] {sfWebDebugLogger} Action "words/wordnikTest" 277.87 ms (1)
+May 08 12:31:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnikTest with parameters array (  'module' => 'words',  'action' => 'wordnikTest',)
+May 08 12:31:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:31:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:31:42 symfony [info] {wordsActions} Call "wordsActions->executeWordnikTest()"
+May 08 12:31:43 symfony [err] {sfRenderException} The template "wordnikTestArray.php" does not exist or is unreadable in "".
+May 08 12:31:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+May 08 12:31:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:31:43 symfony [info] {sfWebDebugLogger} Configuration 25.35 ms (10)
+May 08 12:31:43 symfony [info] {sfWebDebugLogger} Factories 43.88 ms (1)
+May 08 12:31:43 symfony [info] {sfWebDebugLogger} Action "words/wordnikTest" 299.87 ms (1)
+May 08 12:31:43 symfony [info] {sfWebDebugLogger} View "Array" for "words/wordnikTest" 95.68 ms (1)
+May 08 12:32:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnikTest with parameters array (  'module' => 'words',  'action' => 'wordnikTest',)
+May 08 12:32:35 symfony [info] {sfFrontWebController} Action "words/wordnikTest" does not exist
+May 08 12:32:35 symfony [err] {sfError404Exception} Action "words/wordnikTest" does not exist.
+May 08 12:32:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+May 08 12:32:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:32:35 symfony [info] {sfWebDebugLogger} Configuration 147.55 ms (5)
+May 08 12:32:35 symfony [info] {sfWebDebugLogger} Factories 124.07 ms (1)
+May 08 12:32:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:32:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:32:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:32:41 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:32:41 symfony [err] {sfRenderException} The template "wordnikArray.php" does not exist or is unreadable in "".
+May 08 12:32:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+May 08 12:32:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:32:41 symfony [info] {sfWebDebugLogger} Configuration 31.42 ms (10)
+May 08 12:32:41 symfony [info] {sfWebDebugLogger} Factories 42.38 ms (1)
+May 08 12:32:41 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 157.61 ms (1)
+May 08 12:32:41 symfony [info] {sfWebDebugLogger} View "Array" for "words/wordnik" 74.17 ms (1)
+May 08 12:33:07 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:33:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:33:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:33:07 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:33:07 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:33:07 symfony [notice] {sfWebDebugLogger}  Notice at /Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php on line 1 (Undefined variable: definitions)
+May 08 12:33:07 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:33:07 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:33:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:33:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:33:07 symfony [info] {sfWebDebugLogger} Configuration 2.16 ms (9)
+May 08 12:33:07 symfony [info] {sfWebDebugLogger} Factories 42.41 ms (1)
+May 08 12:33:07 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 167.87 ms (1)
+May 08 12:33:07 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 98.53 ms (1)
+May 08 12:33:07 symfony [info] {sfWebResponse} Send content (27129 o)
+May 08 12:33:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:33:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:33:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:33:41 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:33:41 symfony [err] {sfRenderException} The template "wordnikArray.php" does not exist or is unreadable in "".
+May 08 12:33:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+May 08 12:33:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:33:41 symfony [info] {sfWebDebugLogger} Configuration 2.07 ms (9)
+May 08 12:33:41 symfony [info] {sfWebDebugLogger} Factories 41.58 ms (1)
+May 08 12:33:41 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 372.28 ms (1)
+May 08 12:33:41 symfony [info] {sfWebDebugLogger} View "Array" for "words/wordnik" 49.03 ms (1)
+May 08 12:35:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:35:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:35:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:35:28 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:35:28 symfony [notice] {sfWebDebugLogger}  Notice at /Users/jmw/Sites/greight/apps/frontend/modules/words/actions/actions.class.php on line 33 (Undefined variable: definitions)
+May 08 12:35:28 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:35:28 symfony [notice] {sfWebDebugLogger}  Notice at /Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php on line 1 (Undefined variable: definitions)
+May 08 12:35:28 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:35:28 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:35:28 symfony [warning] {sfWebDebugLogger}  Warning at /Users/jmw/Sites/greight/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /Users/jmw/Sites/greight/apps/frontend/modules/words/actions/actions.class.php:33))
+May 08 12:35:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:35:28 symfony [warning] {sfWebDebugLogger}  Warning at /Users/jmw/Sites/greight/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/jmw/Sites/greight/apps/frontend/modules/words/actions/actions.class.php:33))
+May 08 12:35:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:35:28 symfony [info] {sfWebDebugLogger} Configuration 2.07 ms (9)
+May 08 12:35:28 symfony [info] {sfWebDebugLogger} Factories 43.19 ms (1)
+May 08 12:35:28 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 170.14 ms (1)
+May 08 12:35:28 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 23.30 ms (1)
+May 08 12:35:28 symfony [info] {sfWebResponse} Send content (27178 o)
+May 08 12:35:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:35:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:35:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:35:39 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:35:39 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:35:39 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:35:39 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:35:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:35:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:35:39 symfony [info] {sfWebDebugLogger} Configuration 2.04 ms (9)
+May 08 12:35:39 symfony [info] {sfWebDebugLogger} Factories 41.98 ms (1)
+May 08 12:35:39 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 155.10 ms (1)
+May 08 12:35:39 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 21.46 ms (1)
+May 08 12:35:39 symfony [info] {sfWebResponse} Send content (27019 o)
+May 08 12:36:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:36:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:36:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:36:20 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:36:20 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:36:48 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:36:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:36:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:36:48 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:36:48 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:38:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:38:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:38:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:38:24 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:38:25 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:38:25 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:38:25 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:38:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:38:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:38:25 symfony [info] {sfWebDebugLogger} Configuration 2.10 ms (9)
+May 08 12:38:25 symfony [info] {sfWebDebugLogger} Factories 42.82 ms (1)
+May 08 12:38:25 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 162.44 ms (1)
+May 08 12:38:25 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 20.80 ms (1)
+May 08 12:38:25 symfony [info] {sfWebResponse} Send content (27018 o)
+May 08 12:39:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:39:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:39:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:39:18 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:39:18 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:39:18 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:39:18 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:39:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:39:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:39:18 symfony [info] {sfWebDebugLogger} Configuration 1.94 ms (9)
+May 08 12:39:18 symfony [info] {sfWebDebugLogger} Factories 41.56 ms (1)
+May 08 12:39:18 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 103.30 ms (1)
+May 08 12:39:18 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 15.66 ms (1)
+May 08 12:39:18 symfony [info] {sfWebResponse} Send content (27018 o)
+May 08 12:39:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:39:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:39:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:39:20 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:39:20 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:39:20 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:39:20 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:39:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:39:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:39:20 symfony [info] {sfWebDebugLogger} Configuration 2.06 ms (9)
+May 08 12:39:20 symfony [info] {sfWebDebugLogger} Factories 42.46 ms (1)
+May 08 12:39:20 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 99.33 ms (1)
+May 08 12:39:20 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 22.85 ms (1)
+May 08 12:39:20 symfony [info] {sfWebResponse} Send content (27017 o)
+May 08 12:40:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:40:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:40:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:40:03 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:40:03 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:40:03 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:40:03 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:40:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:40:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:40:03 symfony [info] {sfWebDebugLogger} Configuration 2.02 ms (9)
+May 08 12:40:03 symfony [info] {sfWebDebugLogger} Factories 41.59 ms (1)
+May 08 12:40:03 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 417.48 ms (1)
+May 08 12:40:03 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 21.71 ms (1)
+May 08 12:40:03 symfony [info] {sfWebResponse} Send content (27021 o)
+May 08 12:51:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:51:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:51:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:51:28 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:51:28 symfony [err] {Exception} Can't connect to the api: /word.json/donkey/definitions/useSuggest response code: 401
+May 08 12:51:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+May 08 12:51:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:51:28 symfony [info] {sfWebDebugLogger} Configuration 1.71 ms (8)
+May 08 12:51:28 symfony [info] {sfWebDebugLogger} Factories 40.81 ms (1)
+May 08 12:51:28 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 143.01 ms (1)
+May 08 12:51:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:51:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:51:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:51:44 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:51:44 symfony [err] {Exception} Can't connect to the api: /word.json/donkey/definitions/useSuggest=true response code: 401
+May 08 12:51:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+May 08 12:51:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:51:44 symfony [info] {sfWebDebugLogger} Configuration 1.70 ms (8)
+May 08 12:51:44 symfony [info] {sfWebDebugLogger} Factories 42.37 ms (1)
+May 08 12:51:44 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 142.23 ms (1)
+May 08 12:52:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:52:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:52:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:52:42 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:52:42 symfony [err] {Exception} Can't connect to the api: /word.json/donkey/definitions/partOfSpeech=noun response code: 401
+May 08 12:52:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+May 08 12:52:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:52:42 symfony [info] {sfWebDebugLogger} Configuration 1.73 ms (8)
+May 08 12:52:42 symfony [info] {sfWebDebugLogger} Factories 41.39 ms (1)
+May 08 12:52:42 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 159.53 ms (1)
+May 08 12:54:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:54:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:54:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:54:02 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:54:03 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:54:03 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:54:03 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:54:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:54:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:54:03 symfony [info] {sfWebDebugLogger} Configuration 2.13 ms (9)
+May 08 12:54:03 symfony [info] {sfWebDebugLogger} Factories 42.12 ms (1)
+May 08 12:54:03 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 435.64 ms (1)
+May 08 12:54:03 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 22.49 ms (1)
+May 08 12:54:03 symfony [info] {sfWebResponse} Send content (28645 o)
+May 08 12:54:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:54:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:54:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:54:12 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:54:13 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:54:13 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:54:13 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:54:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:54:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:54:13 symfony [info] {sfWebDebugLogger} Configuration 2.05 ms (9)
+May 08 12:54:13 symfony [info] {sfWebDebugLogger} Factories 42.00 ms (1)
+May 08 12:54:13 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 428.67 ms (1)
+May 08 12:54:13 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 18.79 ms (1)
+May 08 12:54:13 symfony [info] {sfWebResponse} Send content (27443 o)
+May 08 12:54:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:54:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:54:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:54:28 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:54:28 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:54:28 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:54:28 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:54:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:54:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:54:28 symfony [info] {sfWebDebugLogger} Configuration 2.12 ms (9)
+May 08 12:54:28 symfony [info] {sfWebDebugLogger} Factories 42.82 ms (1)
+May 08 12:54:28 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 418.82 ms (1)
+May 08 12:54:28 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 21.25 ms (1)
+May 08 12:54:28 symfony [info] {sfWebResponse} Send content (29513 o)
+May 08 12:54:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:54:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:54:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:54:31 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:54:32 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:54:32 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:54:32 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:54:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:54:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:54:32 symfony [info] {sfWebDebugLogger} Configuration 2.07 ms (9)
+May 08 12:54:32 symfony [info] {sfWebDebugLogger} Factories 42.36 ms (1)
+May 08 12:54:32 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 471.71 ms (1)
+May 08 12:54:32 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 22.72 ms (1)
+May 08 12:54:32 symfony [info] {sfWebResponse} Send content (27443 o)
+May 08 12:54:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:54:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:54:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:54:49 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:54:49 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:54:49 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:54:49 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:54:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:54:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:54:49 symfony [info] {sfWebDebugLogger} Configuration 2.00 ms (9)
+May 08 12:54:49 symfony [info] {sfWebDebugLogger} Factories 42.14 ms (1)
+May 08 12:54:49 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 405.92 ms (1)
+May 08 12:54:49 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 21.50 ms (1)
+May 08 12:54:49 symfony [info] {sfWebResponse} Send content (27443 o)
+May 08 12:54:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:54:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:54:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:54:51 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:54:51 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:54:51 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:54:51 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:54:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:54:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:54:51 symfony [info] {sfWebDebugLogger} Configuration 2.06 ms (9)
+May 08 12:54:51 symfony [info] {sfWebDebugLogger} Factories 42.12 ms (1)
+May 08 12:54:51 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 404.72 ms (1)
+May 08 12:54:51 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 22.78 ms (1)
+May 08 12:54:51 symfony [info] {sfWebResponse} Send content (27443 o)
+May 08 12:57:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:57:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:57:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:57:59 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:57:59 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:57:59 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:57:59 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:57:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:57:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:57:59 symfony [info] {sfWebDebugLogger} Configuration 2.10 ms (9)
+May 08 12:57:59 symfony [info] {sfWebDebugLogger} Factories 42.95 ms (1)
+May 08 12:57:59 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 458.42 ms (1)
+May 08 12:57:59 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 23.10 ms (1)
+May 08 12:57:59 symfony [info] {sfWebResponse} Send content (37685 o)
+May 08 12:58:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:58:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:58:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:58:17 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:58:18 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:58:18 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:58:18 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:58:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:58:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:58:18 symfony [info] {sfWebDebugLogger} Configuration 2.01 ms (9)
+May 08 12:58:18 symfony [info] {sfWebDebugLogger} Factories 42.19 ms (1)
+May 08 12:58:18 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 406.24 ms (1)
+May 08 12:58:18 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 23.79 ms (1)
+May 08 12:58:18 symfony [info] {sfWebResponse} Send content (27443 o)
+May 08 12:58:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:58:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:58:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:58:31 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:58:31 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:58:31 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:58:31 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:58:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:58:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:58:31 symfony [info] {sfWebDebugLogger} Configuration 2.01 ms (9)
+May 08 12:58:31 symfony [info] {sfWebDebugLogger} Factories 42.18 ms (1)
+May 08 12:58:31 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 393.59 ms (1)
+May 08 12:58:31 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 20.00 ms (1)
+May 08 12:58:31 symfony [info] {sfWebResponse} Send content (27443 o)
+May 08 12:58:33 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:58:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:58:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:58:33 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:58:33 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:58:33 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:58:33 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:58:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:58:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:58:33 symfony [info] {sfWebDebugLogger} Configuration 2.13 ms (9)
+May 08 12:58:33 symfony [info] {sfWebDebugLogger} Factories 42.09 ms (1)
+May 08 12:58:33 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 387.21 ms (1)
+May 08 12:58:33 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 24.41 ms (1)
+May 08 12:58:33 symfony [info] {sfWebResponse} Send content (27443 o)
+May 08 12:59:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:59:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:59:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:59:08 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:59:08 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:59:08 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:59:08 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:59:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:59:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:59:08 symfony [info] {sfWebDebugLogger} Configuration 2.11 ms (9)
+May 08 12:59:08 symfony [info] {sfWebDebugLogger} Factories 42.93 ms (1)
+May 08 12:59:08 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 411.03 ms (1)
+May 08 12:59:08 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 22.72 ms (1)
+May 08 12:59:08 symfony [info] {sfWebResponse} Send content (27443 o)
+May 08 12:59:23 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:59:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:59:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:59:23 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:59:24 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:59:24 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:59:24 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:59:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:59:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:59:24 symfony [info] {sfWebDebugLogger} Configuration 2.13 ms (9)
+May 08 12:59:24 symfony [info] {sfWebDebugLogger} Factories 42.41 ms (1)
+May 08 12:59:24 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 440.04 ms (1)
+May 08 12:59:24 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 23.60 ms (1)
+May 08 12:59:24 symfony [info] {sfWebResponse} Send content (27443 o)
+May 08 12:59:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 12:59:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 12:59:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 12:59:29 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 12:59:30 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 12:59:30 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:59:30 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 12:59:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 12:59:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 12:59:30 symfony [info] {sfWebDebugLogger} Configuration 2.00 ms (9)
+May 08 12:59:30 symfony [info] {sfWebDebugLogger} Factories 43.32 ms (1)
+May 08 12:59:30 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 439.39 ms (1)
+May 08 12:59:30 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 21.89 ms (1)
+May 08 12:59:30 symfony [info] {sfWebResponse} Send content (27443 o)
+May 08 13:00:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:00:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:00:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:00:39 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:00:40 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:00:40 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:00:40 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:00:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 13:00:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 13:00:40 symfony [info] {sfWebDebugLogger} Configuration 2.29 ms (9)
+May 08 13:00:40 symfony [info] {sfWebDebugLogger} Factories 42.66 ms (1)
+May 08 13:00:40 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 418.44 ms (1)
+May 08 13:00:40 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 22.24 ms (1)
+May 08 13:00:40 symfony [info] {sfWebResponse} Send content (27443 o)
+May 08 13:00:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:00:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:00:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:00:56 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:00:56 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:00:56 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:00:56 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:00:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 13:00:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 13:00:56 symfony [info] {sfWebDebugLogger} Configuration 2.03 ms (9)
+May 08 13:00:56 symfony [info] {sfWebDebugLogger} Factories 42.30 ms (1)
+May 08 13:00:56 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 444.01 ms (1)
+May 08 13:00:56 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 22.73 ms (1)
+May 08 13:00:56 symfony [info] {sfWebResponse} Send content (41819 o)
+May 08 13:01:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:01:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:01:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:01:34 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:01:35 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:01:35 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:01:35 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:01:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 13:01:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 13:01:35 symfony [info] {sfWebDebugLogger} Configuration 2.06 ms (9)
+May 08 13:01:35 symfony [info] {sfWebDebugLogger} Factories 42.17 ms (1)
+May 08 13:01:35 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 439.36 ms (1)
+May 08 13:01:35 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 17.39 ms (1)
+May 08 13:01:35 symfony [info] {sfWebResponse} Send content (41868 o)
+May 08 13:03:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:03:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:03:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:03:51 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:03:52 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:03:52 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:03:52 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:03:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 13:03:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 13:03:52 symfony [info] {sfWebDebugLogger} Configuration 2.04 ms (9)
+May 08 13:03:52 symfony [info] {sfWebDebugLogger} Factories 43.04 ms (1)
+May 08 13:03:52 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 846.31 ms (1)
+May 08 13:03:52 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 24.84 ms (1)
+May 08 13:03:52 symfony [info] {sfWebResponse} Send content (48143 o)
+May 08 13:10:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:10:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:10:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:10:43 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:10:44 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:10:44 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:10:44 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:10:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 13:10:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 13:10:44 symfony [info] {sfWebDebugLogger} Configuration 2.15 ms (9)
+May 08 13:10:44 symfony [info] {sfWebDebugLogger} Factories 42.54 ms (1)
+May 08 13:10:44 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 802.42 ms (1)
+May 08 13:10:44 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 24.70 ms (1)
+May 08 13:10:44 symfony [info] {sfWebResponse} Send content (36764 o)
+May 08 13:18:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:18:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:18:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:18:50 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:18:51 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:19:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:19:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:19:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:19:05 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:19:06 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:19:32 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:19:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:19:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:19:32 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:19:32 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:19:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:19:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:19:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:19:50 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:19:51 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:19:51 symfony [err] {sfWebDebugLogger}  Error at /Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php on line 19 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+May 08 13:20:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:20:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:20:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:20:37 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:20:38 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:20:38 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:20:38 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:20:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 13:20:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 13:20:38 symfony [info] {sfWebDebugLogger} Configuration 2.08 ms (9)
+May 08 13:20:38 symfony [info] {sfWebDebugLogger} Factories 42.11 ms (1)
+May 08 13:20:38 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 889.65 ms (1)
+May 08 13:20:38 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 23.65 ms (1)
+May 08 13:20:38 symfony [info] {sfWebResponse} Send content (36846 o)
+May 08 13:21:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:21:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:21:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:21:17 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:21:18 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:21:18 symfony [notice] {sfWebDebugLogger}  Notice at /Users/jmw/Sites/greight/lib/vendor/symfony/lib/escaper/sfOutputEscaper.class.php on line 241 (Trying to get property of non-object)
+May 08 13:21:18 symfony [warning] {sfWebDebugLogger}  Warning at /Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php on line 17 (Invalid argument supplied for foreach())
+May 08 13:21:18 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:21:18 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:21:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 13:21:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 13:21:18 symfony [info] {sfWebDebugLogger} Configuration 2.02 ms (9)
+May 08 13:21:18 symfony [info] {sfWebDebugLogger} Factories 42.24 ms (1)
+May 08 13:21:18 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 768.65 ms (1)
+May 08 13:21:18 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 27.03 ms (1)
+May 08 13:21:18 symfony [info] {sfWebResponse} Send content (37140 o)
+May 08 13:21:32 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:21:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:21:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:21:32 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:21:34 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:21:34 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:21:34 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:21:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 13:21:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 13:21:34 symfony [info] {sfWebDebugLogger} Configuration 2.02 ms (9)
+May 08 13:21:34 symfony [info] {sfWebDebugLogger} Factories 42.55 ms (1)
+May 08 13:21:34 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 1999.42 ms (1)
+May 08 13:21:34 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 23.21 ms (1)
+May 08 13:21:34 symfony [info] {sfWebResponse} Send content (37259 o)
+May 08 13:22:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:22:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:22:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:22:02 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:22:03 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:22:03 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:22:03 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:22:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 13:22:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 13:22:03 symfony [info] {sfWebDebugLogger} Configuration 2.07 ms (9)
+May 08 13:22:03 symfony [info] {sfWebDebugLogger} Factories 42.25 ms (1)
+May 08 13:22:03 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 1007.50 ms (1)
+May 08 13:22:03 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 26.61 ms (1)
+May 08 13:22:03 symfony [info] {sfWebResponse} Send content (51200 o)
+May 08 13:23:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:23:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:23:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:23:16 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:23:16 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:23:16 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:23:16 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:23:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 13:23:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 13:23:16 symfony [info] {sfWebDebugLogger} Configuration 2.08 ms (9)
+May 08 13:23:16 symfony [info] {sfWebDebugLogger} Factories 42.61 ms (1)
+May 08 13:23:16 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 803.84 ms (1)
+May 08 13:23:16 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 28.33 ms (1)
+May 08 13:23:16 symfony [info] {sfWebResponse} Send content (52327 o)
+May 08 13:24:07 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:24:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:24:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:24:08 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:24:08 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:24:08 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:24:08 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:24:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 13:24:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 13:24:08 symfony [info] {sfWebDebugLogger} Configuration 2.08 ms (9)
+May 08 13:24:08 symfony [info] {sfWebDebugLogger} Factories 146.31 ms (1)
+May 08 13:24:08 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 771.70 ms (1)
+May 08 13:24:08 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 27.78 ms (1)
+May 08 13:24:08 symfony [info] {sfWebResponse} Send content (52366 o)
+May 08 13:25:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:25:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:25:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:25:34 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:25:34 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:26:33 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:26:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:26:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:26:33 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:26:34 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:26:34 symfony [notice] {sfWebDebugLogger}  Notice at /Users/jmw/Sites/greight/lib/vendor/symfony/lib/escaper/sfOutputEscaper.class.php on line 241 (Trying to get property of non-object)
+May 08 13:26:34 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:26:34 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:26:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 13:26:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 13:26:34 symfony [info] {sfWebDebugLogger} Configuration 2.01 ms (9)
+May 08 13:26:34 symfony [info] {sfWebDebugLogger} Factories 43.60 ms (1)
+May 08 13:26:34 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 761.23 ms (1)
+May 08 13:26:34 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 23.50 ms (1)
+May 08 13:26:34 symfony [info] {sfWebResponse} Send content (52551 o)
+May 08 13:26:58 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:26:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:26:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:26:58 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:27:00 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:27:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:27:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:27:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:27:29 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:27:30 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:27:30 symfony [notice] {sfWebDebugLogger}  Notice at /Users/jmw/Sites/greight/lib/vendor/symfony/lib/escaper/sfOutputEscaper.class.php on line 241 (Trying to get property of non-object)
+May 08 13:27:30 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:27:30 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:27:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 13:27:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 13:27:30 symfony [info] {sfWebDebugLogger} Configuration 2.02 ms (9)
+May 08 13:27:30 symfony [info] {sfWebDebugLogger} Factories 43.07 ms (1)
+May 08 13:27:30 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 767.53 ms (1)
+May 08 13:27:30 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 26.56 ms (1)
+May 08 13:27:30 symfony [info] {sfWebResponse} Send content (52563 o)
+May 08 13:27:48 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:27:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:27:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:27:48 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:27:49 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:27:49 symfony [err] {sfWebDebugLogger}  Error at /Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php on line 42 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+May 08 13:27:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:27:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:27:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:27:56 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:27:57 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:27:57 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:27:57 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:27:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 13:27:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 13:27:57 symfony [info] {sfWebDebugLogger} Configuration 2.08 ms (9)
+May 08 13:27:57 symfony [info] {sfWebDebugLogger} Factories 41.15 ms (1)
+May 08 13:27:57 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 828.77 ms (1)
+May 08 13:27:57 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 23.19 ms (1)
+May 08 13:27:57 symfony [info] {sfWebResponse} Send content (52413 o)
+May 08 13:31:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /words/wordnik with parameters array (  'module' => 'words',  'action' => 'wordnik',)
+May 08 13:31:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 08 13:31:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 08 13:31:00 symfony [info] {wordsActions} Call "wordsActions->executeWordnik()"
+May 08 13:31:01 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/modules/words/templates/wordnikSuccess.php"
+May 08 13:31:01 symfony [info] {sfPHPView} Decorate content with "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:31:01 symfony [info] {sfPHPView} Render "/Users/jmw/Sites/greight/apps/frontend/templates/layout.php"
+May 08 13:31:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 08 13:31:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 08 13:31:01 symfony [info] {sfWebDebugLogger} Configuration 2.16 ms (9)
+May 08 13:31:01 symfony [info] {sfWebDebugLogger} Factories 42.46 ms (1)
+May 08 13:31:01 symfony [info] {sfWebDebugLogger} Action "words/wordnik" 987.61 ms (1)
+May 08 13:31:01 symfony [info] {sfWebDebugLogger} View "Success" for "words/wordnik" 22.76 ms (1)
+May 08 13:31:02 symfony [info] {sfWebResponse} Send content (52516 o)

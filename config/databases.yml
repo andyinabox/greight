@@ -4,4 +4,4 @@ all:
     param:
       dsn: 'mysql:host=localhost;dbname=greight'
       username: root
-      password: null
+      password: Evoleye-Mac
