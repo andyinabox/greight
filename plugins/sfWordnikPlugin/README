@@ -1,0 +1,42 @@
+The Wordnik Plugin.
+=============================
+
+Access the Wordnik API
+
+**Info**
+
+This is a very simple wrapper for the Wordnik API. It gives symfony users a simple way to 
+access the wonderful dictionary service provided by Wordnik.
+
+
+**Installation**
+
+	!NOT YET!
+   	symfony plugin:install sfWordnikPlugin
+	!NOT YET!
+
+**Example Basic Usage**
+
+  action:
+
+    $dictionary = new Wordnik();
+    $wordToLookup = "nevertheless";
+    
+    //Returns an array of the json response from Wordnik
+    $this->definitions = $dictionary->getDefinitions($wordToLookup);
+
+
+  template:
+
+    <h2>
+      Definitions
+    </h2>
+
+    <ul>
+    <? foreach ($definitions as $definition): ?>
+    	<li>
+    		<strong><?= $definition->headword ?></strong>
+			<?= $definition->text ?>
+ 		</li>
+ 	<? endforeach; ?>
+	</ul>
