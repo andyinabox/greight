@@ -1,0 +1,67 @@
+#Container {}
+	
+	#Header {
+		height: 50px;
+		background: #fff;
+	}
+	
+		#Header #logo { float: left;}
+	
+		#MainNav { float: left; }
+		#MainNav li {
+			list-style: none;
+			float: left;
+		}
+		
+		#Header #login { float: right; } 
+
+	#Main {
+		position: relative;
+		width: 900px;
+		margin: 0px auto;
+	}
+	
+		#Ads {
+			position: absolute;
+			width: 150px;
+			background: #fff;
+			left: 0;
+			top: 10px;
+		}
+		#Ads img, #Ads p { margin-left: 10px;}
+		
+		#FlashCard {
+			top: 10px;
+			left: 160px;
+			position: absolute;
+			background: #fff;
+			width: 700px;
+			height: 500px;
+		}
+		
+		#FlashCard #word-count,
+		#FlashCard #display-size,
+		#FlashCard #preferences,
+		#FlashCard #controls {
+			position: absolute;
+		}
+		#FlashCard #word-count { top: 0px; left: 0px;}
+		#FlashCard #display-size { top: 0px; right: 0px;}
+		#FlashCard #preferences { bottom: 0px; left: 0px;}
+		#FlashCard #controls { bottom: 0px; right: 0px;}
+		
+		#FlashCard h1 {
+			text-align: center;
+			font-weight: normal;
+			font-size: 60px;
+		}
+		
+	
+	#Footer {
+		position: fixed;
+		bottom: 0px;
+		right: 0px;
+		left: 0px;
+		height: 30px;
+		background: #fff;
+	}
