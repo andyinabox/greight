@@ -1,0 +1,27 @@
+{ 
+			"name" : "abscond",
+			"pronouncer" : "/(&#x103;b-sk&#x14F;nd&#x2C8;)/",
+			"definitions" : [
+				{
+					"partOfSpeech" : "verb-intransitive",
+					"text" : "To leave quickly and secretly and hide oneself, often to avoid arrest or prosecution."
+				}
+			],
+			"examples" : [
+				{
+					"url" : "http://www.gutenberg.org/dirs/2/1/0/3/21038/21038-8.txt",
+					"title" : "A Dog with a Bad Name",
+					"text" : "Percy, however, took the precaution to take away the front-door key, so that the visitor could not abscond from the house during the night without his knowledge."
+				},
+				{
+					"url" : "http://www.gutenberg.org/dirs/etext04/llth210.txt",
+					"title" : "Life and Letters of Thomas Henry Huxley &amp; Volume 2",
+					"text" : "I am good to lunch with you (and abscond from the Royal Commission, which will get on very well without me) or to go with you and call on your friends, whichever may be most convenient."
+				},
+				{
+					"url" : "http://www.ocweekly.com",
+					"title" : "http://www.ocweekly.com",
+					"text" : "I get stung several hundred times through my suit and the bees abscond from the hive a few days later."
+				}
+			]		
+}
