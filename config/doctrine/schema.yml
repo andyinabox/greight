@@ -1,3 +1,45 @@
 Word:
+  inheritance:
+    extends: sfWordnikWord
+    type: concrete
   columns:
+    wordlist_id: integer(4)
+  relations:
+    Wordlist:
+      class: Wordlist
+      foreignAlias: Words
+      local: wordlist_id
+      foreign: id
+      type: one
+      foreignType: many
+
+Wordlist:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
     name: { type: string(255), notnull: true }
+    
+Profile:
+  columns:
+    sf_guard_user_id: integer(4)
+    first_name: string(255)
+    last_name: string(255)
+    email_address: string(255)
+    gre_date: date
+    favorite_word_id: integer(4)
+    city: string(255)
+    state: string(2)
+    country: string(255)
+  relations:
+    User:
+      class: sfGuardUser
+      foreignType: one
+    FavoriteWord:
+      class: sfWordnikWord
+      local: favorite_word_id
+      foreign: id
+      foreignType: one
+      
+      

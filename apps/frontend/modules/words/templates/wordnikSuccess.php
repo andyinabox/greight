@@ -2,13 +2,14 @@
 <h2>DEFINITIONS:</h2>
 <?php print_r($definitions) ?>
 	<ul>
-    <? foreach ($definitions as $definition): ?>
+    <? foreach ($defsArray as $definition): ?>
     	<li>
-    		<strong><?= $definition->headword ?></strong>
-			<?= $definition->text ?>
+			<?= $definition ?>
  		</li>
  	<? endforeach; ?>
 	</ul>
+	
+	First Def: <?= $firstDef ?>
 </p>
 
 <p>

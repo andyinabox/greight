@@ -6,27 +6,18 @@
  * @package    greight
  * @subpackage filter
  * @author     Your name here
- * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
+ * @version    SVN: $Id: sfDoctrineFormFilterGeneratedInheritanceTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
  */
-abstract class BaseWordFormFilter extends BaseFormFilterDoctrine
+abstract class BaseWordFormFilter extends sfWordnikWordFormFilter
 {
-  public function setup()
+  protected function setupInheritance()
   {
-    $this->setWidgets(array(
-      'name' => new sfWidgetFormFilterInput(array('with_empty' => false)),
-    ));
+    parent::setupInheritance();
 
-    $this->setValidators(array(
-      'name' => new sfValidatorPass(array('required' => false)),
-    ));
+    $this->widgetSchema   ['wordlist_id'] = new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Wordlist'), 'add_empty' => true));
+    $this->validatorSchema['wordlist_id'] = new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Wordlist'), 'column' => 'id'));
 
     $this->widgetSchema->setNameFormat('word_filters[%s]');
-
-    $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
-
-    $this->setupInheritance();
-
-    parent::setup();
   }
 
   public function getModelName()
@@ -36,9 +27,8 @@ abstract class BaseWordFormFilter extends BaseFormFilterDoctrine
 
   public function getFields()
   {
-    return array(
-      'id'   => 'Number',
-      'name' => 'Text',
-    );
+    return array_merge(parent::getFields(), array(
+      'wordlist_id' => 'ForeignKey',
+    ));
   }
 }

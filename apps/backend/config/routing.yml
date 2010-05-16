@@ -1,0 +1,124 @@
+wordlist:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Wordlist
+    module:               Wordlist
+    prefix_path:          /Wordlist
+    column:               id
+    with_wildcard_routes: true
+
+word_Word:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Word
+    module:               Word
+    prefix_path:          /Word
+    column:               id
+    with_wildcard_routes: true
+
+sf_wordnik_word_sfWordnikWord:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfWordnikWord
+    module:               sfWordnikWord
+    prefix_path:          /sfWordnikWord
+    column:               id
+    with_wildcard_routes: true
+
+sf_wordnik_related_word:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfWordnikRelatedWord
+    module:               sf_wordnik_related_word
+    prefix_path:          /sf_wordnik_related_word
+    column:               id
+    with_wildcard_routes: true
+
+sf_wordnik_related:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfWordnikRelated
+    module:               sf_wordnik_related
+    prefix_path:          /sf_wordnik_related
+    column:               id
+    with_wildcard_routes: true
+
+sf_wordnik_example:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfWordnikExample
+    module:               sf_wordnik_example
+    prefix_path:          /sf_wordnik_example
+    column:               id
+    with_wildcard_routes: true
+
+sf_wordnik_definition:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfWordnikDefinition
+    module:               sf_wordnik_definition
+    prefix_path:          /sf_wordnik_definition
+    column:               id
+    with_wildcard_routes: true
+
+word:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Word
+    module:               word
+    prefix_path:          /word
+    column:               id
+    with_wildcard_routes: true
+
+sf_wordnik_word:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfWordnikWord
+    module:               sf_wordnik_word
+    prefix_path:          /sf_wordnik_word
+    column:               id
+    with_wildcard_routes: true
+
+sf_guard_permission:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfGuardPermission
+    module:               permission
+    prefix_path:          /permission
+    column:               id
+    with_wildcard_routes: true
+
+sf_guard_group:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfGuardGroup
+    module:               group
+    prefix_path:          /group
+    column:               id
+    with_wildcard_routes: true
+
+sf_guard_user:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfGuardUser
+    module:               sfGuardUser
+    prefix_path:          /user
+    column:               id
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: sfGuardUser, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

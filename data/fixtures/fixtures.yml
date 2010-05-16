@@ -15,3 +15,20 @@
 #     password: changeme
 #     name:     Kris Wallsmith
 #     email:    kris.wallsmith@symfony-project.com
+sfGuardUser:
+  jmwohl:
+    username: jmwohl
+    password: pass
+    is_super_admin: true
+    Profile:
+      first_name: Jonathan
+      last_name: Wohl
+      email_address: jon@jonwohl.com
+  amdayton:
+    username: amdayton
+    password: pass
+    is_super_admin: true
+    Profile:
+      first_name: Andrew
+      last_name: Dayton
+      email_address: amdayton@gmail.com

@@ -1,0 +1,61 @@
+sfWordnikWord:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      unique: true
+
+sfWordnikDefinition:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    sf_wordnik_word_id: integer(4)
+    text: string
+  relations:
+    sfWordnikWord:
+      class: sfWordnikWord
+      local: sf_wordnik_word_id
+      foreign: id
+      type: one
+      foreignType: many
+      alias: Word
+      foreignAlias: Definitions
+    
+sfWordnikExample:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    sf_wordnik_word_id: integer(4)
+    text: string
+  relations:
+    sfWordnikWord:
+      class: sfWordnikWord
+      local: sf_wordnik_word_id
+      foreign: id
+      type: one
+      foreignType: many
+      foreignAlias: Examples
+
+sfWordnikRelatedWord:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    sf_wordnik_word_id: integer(4)
+    text: string
+  relations:
+    sfWordnikWord:
+      class: sfWordnikWord
+      local: sf_wordnik_word_id
+      foreign: id
+      type: one
+      foreignType: many
+      foreignAlias: RelatedWords
