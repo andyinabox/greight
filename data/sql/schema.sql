@@ -10,7 +10,6 @@ CREATE TABLE sf_guard_user_group (user_id INT, group_id INT, created_at DATETIME
 CREATE TABLE sf_guard_user_permission (user_id INT, permission_id INT, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(user_id, permission_id)) ENGINE = INNODB;
 CREATE TABLE sf_wordnik_definition (id INT AUTO_INCREMENT, sf_wordnik_word_id INT, text TEXT, INDEX sf_wordnik_word_id_idx (sf_wordnik_word_id), PRIMARY KEY(id)) ENGINE = INNODB;
 CREATE TABLE sf_wordnik_example (id INT AUTO_INCREMENT, sf_wordnik_word_id INT, text TEXT, INDEX sf_wordnik_word_id_idx (sf_wordnik_word_id), PRIMARY KEY(id)) ENGINE = INNODB;
-CREATE TABLE sf_wordnik_related (id INT AUTO_INCREMENT, sf_wordnik_word_id INT, text TEXT, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, INDEX sf_wordnik_word_id_idx (sf_wordnik_word_id), PRIMARY KEY(id)) ENGINE = INNODB;
 CREATE TABLE sf_wordnik_related_word (id INT AUTO_INCREMENT, sf_wordnik_word_id INT, text TEXT, INDEX sf_wordnik_word_id_idx (sf_wordnik_word_id), PRIMARY KEY(id)) ENGINE = INNODB;
 CREATE TABLE sf_wordnik_word (id INT AUTO_INCREMENT, name VARCHAR(255) UNIQUE, PRIMARY KEY(id)) ENGINE = INNODB;
 ALTER TABLE profile ADD CONSTRAINT profile_sf_guard_user_id_sf_guard_user_id FOREIGN KEY (sf_guard_user_id) REFERENCES sf_guard_user(id);
@@ -25,5 +24,4 @@ ALTER TABLE sf_guard_user_permission ADD CONSTRAINT sf_guard_user_permission_use
 ALTER TABLE sf_guard_user_permission ADD CONSTRAINT sf_guard_user_permission_permission_id_sf_guard_permission_id FOREIGN KEY (permission_id) REFERENCES sf_guard_permission(id) ON DELETE CASCADE;
 ALTER TABLE sf_wordnik_definition ADD CONSTRAINT sf_wordnik_definition_sf_wordnik_word_id_sf_wordnik_word_id FOREIGN KEY (sf_wordnik_word_id) REFERENCES sf_wordnik_word(id);
 ALTER TABLE sf_wordnik_example ADD CONSTRAINT sf_wordnik_example_sf_wordnik_word_id_sf_wordnik_word_id FOREIGN KEY (sf_wordnik_word_id) REFERENCES sf_wordnik_word(id);
-ALTER TABLE sf_wordnik_related ADD CONSTRAINT sf_wordnik_related_sf_wordnik_word_id_sf_wordnik_word_id FOREIGN KEY (sf_wordnik_word_id) REFERENCES sf_wordnik_word(id);
 ALTER TABLE sf_wordnik_related_word ADD CONSTRAINT sf_wordnik_related_word_sf_wordnik_word_id_sf_wordnik_word_id FOREIGN KEY (sf_wordnik_word_id) REFERENCES sf_wordnik_word(id);

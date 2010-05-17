@@ -12,4 +12,5 @@
  */
 class sfWordnikWord extends PluginsfWordnikWord
 {
+	
 }

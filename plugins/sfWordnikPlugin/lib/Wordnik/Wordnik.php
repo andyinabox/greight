@@ -17,17 +17,6 @@ class Wordnik {
 	
 	const BASE_URI = 'http://api.wordnik.com/api';
 	
-	/** If there's an existing Wordnik instance, return it, otherwise create and return a new one. */
-	private static $instance;
-	
-	public static function instance() {
-		if (self::$instance == NULL) {
-			self::$instance = new Wordnik();
-		}
-		
-		return self::$instance;
-	}
-	
 	/**
 	 * Pass in a word as a string, returns raw Wordnik response as an object.
 	 * 
@@ -146,6 +135,7 @@ class Wordnik {
 		$examplesObj = self::getRawExamples($word);
 		return $examplesObj[0]->display;
 	}
+	
 	/**
 	 * Static method taking a word and returning an array of related words.  Returns false if no
 	 * related words are found.

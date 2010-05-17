@@ -12,5 +12,17 @@
  */
 abstract class PluginsfWordnikWord extends BasesfWordnikWord
 {
-
+	public function populate($json) {
+		$wordObj = json_decode($json);
+		$this->name = $wordObj->headword;
+		foreach($wordObj->definitions as $definition) {
+			$this->Definitions[]->text = $definition;
+		}
+		foreach($wordObj->examples as $example) {
+			$this->Examples[]->text = $example;
+		}
+		foreach($wordObj->related as $related) {
+			$this->RelatedWords[]->text = $related;
+		}
+	}
 }

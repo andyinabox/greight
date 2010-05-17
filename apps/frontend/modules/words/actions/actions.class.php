@@ -104,4 +104,21 @@ class wordsActions extends sfActions
   	$headword = $request->getGetParameter("word");
   	$this->pos = Wordnik::getPartOfSpeech($headword);  	
   }
+  
+  /**
+   * An example of how to populate a new sfWordnikWord object using it's populate method.
+   *
+   * @param sfWebRequest $request
+   */
+  public function executeNewWord(sfWebRequest $request) {
+  	$word = new sfWordnikWord();
+  	$word->populate(Wordnik::getWordObject($request->getGetParameter("word")));
+//  	$word->name = $request->getGetParameter("word");
+//  	$word->Definitions[]->text = "To see if something works.";
+//  	$word->Examples[]->text = "Let's test this motor, see if it works.'";
+//  	$word->RelatedWords[]->text = "try";
+	$word->save();
+    $this->success = "Awesome.";
+  }
+  
 }
