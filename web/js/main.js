@@ -1,17 +1,13 @@
-$(document).keys({
-  'Space': space
-});
-
 $(document).ready(function() {
-	var word_data;
-	$.getJSON('/js/words-test.json',
-		function(data) {
-			console.log(data);
-		}
-	);
-});
-
-
-function space() {
-	$("#content").append("<p>Space is the place!</p>");
-}
+	fc = new FlashCard('#FlashCard', { req_next_word: 'words-test.json'} );
+	console.log(fc);
+	
+	$(this).bind('keyup', 'space', function(e) {
+		e.stopPropagation();  
+		e.preventDefault();
+		fc.nextStep();
+		return false;
+	});
+	$(this).bind('keyup', 'return', fc.markComplete);
+	$(this).bind('keyup', 'h', fc.showHint);
+})
