@@ -1,2 +1,2 @@
 <h2>HINT:</h2>
-	<?= $hint ?>
+	<?php echo $hint ?>

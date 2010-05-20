@@ -4,12 +4,12 @@
 	<ul>
     <? foreach ($defsArray as $definition): ?>
     	<li>
-			<?= $definition ?>
+			<?php echo $definition ?>
  		</li>
  	<? endforeach; ?>
 	</ul>
 	
-	First Def: <?= $firstDef ?>
+	First Def: <?php echo $firstDef ?>
 
 </p>
 
@@ -19,7 +19,7 @@
 <ul>
     <? foreach ($related[0]->wordstrings as $word): ?>
     	<li>
-    		<strong><?= $word ?></strong>
+    		<strong><?php echo $word ?></strong>
  		</li>
  	<? endforeach; ?>
 	</ul>
@@ -31,8 +31,8 @@
 	<ul>
     <? foreach ($examples as $example): ?>
     	<li>
-    		<strong><?= $example->title ?></strong>
-			<?= $example->display ?>
+    		<strong><?php echo $example->title ?></strong>
+			<?php echo $example->display ?>
  		</li>
  	<? endforeach; ?>
 	</ul>
@@ -42,13 +42,13 @@
 <h2>WORD OF THE DAY:</h2>
 <?php print_r($wotd) ?>
 <ul>
-	<li><?= $wotd->definition[0]->text ?></li>
-	<li><?= $wotd->definition[1]->text ?></li>
+	<li><?php echo $wotd->definition[0]->text ?></li>
+	<li><?php echo $wotd->definition[1]->text ?></li>
 </ul>
 </p>
 
 <p>
 <h2>RANDOM WORD:</h2>
 <?php print_r($random) ?>
-<ul><li><?= $random->wordstring ?></li></ul>
+<ul><li><?php echo $random->wordstring ?></li></ul>
 </p>

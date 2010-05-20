@@ -1,1 +1,1 @@
-<p><?= $success ?></p>
+<p><?php echo $success ?></p>
