@@ -12,9 +12,9 @@ default:
     #language:     en
     #robots:       index, follow
 
-  stylesheets:    [main.css]
+  stylesheets: [base.css, layout.css, typography.css]
 
-  javascripts:    []
+  javascripts:    ['jquery-1.4.2.js', 'mootools-1.2.4-base.js', 'Class.Mutators.jQuery.js','jquery.hotkeys-0.7.9.js', 'pure.js', 'FlashCard.class.js' 'main.js']
 
   has_layout:     true
   layout:         layout

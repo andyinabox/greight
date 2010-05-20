@@ -28,7 +28,7 @@ class Wordnik {
 	 */
 	public static function getRawDefinitions($word, $useSuggest = null, $partOfSpeech = null, $count = null) {
 		if(is_null($word) || trim($word) == '') {
-			throw new InvalidParameterException("getDefinitions expects word to be a string");
+			throw new sfException("getDefinitions expects word to be a string");
 		}
 		return self::curlData( '/word.json/' . rawurlencode($word) . '/definitions');
 	}
@@ -41,7 +41,7 @@ class Wordnik {
 	 */
 	public static function getRawRelatedWords($word) {
 		if(is_null($word) || trim($word) == '') {
-			throw new InvalidParameterException("getRelatedWords expects word to be a string");
+			throw new sfException("getRelatedWords expects word to be a string");
 		}
 		return self::curlData( '/word.json/' . rawurlencode($word) . '/related' );
 	}
@@ -54,7 +54,7 @@ class Wordnik {
 	 */
 	public static function getRawExamples($word) {
 		if(is_null($word) || trim($word) == '') {
-			throw new InvalidParameterException("getExamples expects word to be a string");
+			throw new sfException("getExamples expects word to be a string");
 		}
 		
 		return self::curlData( '/word.json/' . rawurlencode($word) . '/examples' );
@@ -67,6 +67,7 @@ class Wordnik {
 	 */
 	public static function getRawWordOfTheDay() {
 		return self::curlData( '/wordoftheday.json/' );
+
 	}
 	
 	/**
@@ -193,6 +194,7 @@ class Wordnik {
 	 * @return Array
 	 */
 	private static function curlData($uri) {
+		
 		$data = null;
 		
 		$header = array();
