@@ -1,3 +1,7 @@
+body {
+	background: #d6e4e6 url(../images/background.jpg) top left repeat;
+}
+
 #Container {}
 	
 	#Header {
@@ -5,7 +9,15 @@
 		background: #fff;
 	}
 	
-		#Header #logo { float: left;}
+		#Header #logo {
+			float: left;
+
+		}
+		#Header #logo a {
+			font-size: 40px;
+			color: #000;
+			text-decoration: none;
+		}
 	
 		#MainNav { float: left; }
 		#MainNav li {
@@ -37,6 +49,7 @@
 			background: #fff;
 			width: 700px;
 			height: 500px;
+			background: #f1f2ef url(../paper.jpg) top left repeat;
 		}
 		
 		#FlashCard #word-count,
@@ -53,15 +66,29 @@
 		#FlashCard h1 {
 			text-align: center;
 			font-weight: normal;
-			font-size: 60px;
+			font-size: 80px;
+			color: #000;
+			text-shadow: 2px 2px 2px #aaa;
 		}
 		
 	
 	#Footer {
 		position: fixed;
 		bottom: 0px;
-		right: 0px;
 		left: 0px;
-		height: 30px;
+		height: 25px;
 		background: #fff;
+		opacity: 0.7;
+		-moz-opacity: 0.7;
+		filter:alpha(opacity=70);
+		font-size: 12px;
+		-webkit-border-top-right-radius: 3px;
+		-moz-border-radius-topright: 3px;
+		border-top-right-radius: 3px;
+	}
+	
+	#Footer #credits {
+		line-height: 2em;
+		margin-left: .5em;
+		margin-right: 1em;
 	}

@@ -17,7 +17,7 @@ class wordsActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-    $this->forward('default', 'module');
+
   }
   
   public function executeView(sfWebRequest $request)
